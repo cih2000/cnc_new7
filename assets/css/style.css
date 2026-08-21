@@ -416,7 +416,7 @@ h1, h2, h3, h4, h5, p { margin: 0; }
 .client-static-grid .cindustry { display: block; font-family: "Inter", "Noto Sans KR", sans-serif; font-weight: 700; font-size: 11px; color: #0891b2; letter-spacing: .01em; text-align: center; margin-top: -2px; }
 
 /* ---------------- Category section / product spec-card grid ---------------- */
-.cat-section { padding: 96px 0; border-top: 1px solid var(--border); }
+.cat-section { padding: 56px 0; border-top: 1px solid var(--border); }
 .cat-section:nth-of-type(even) { background: var(--bg-alt); }
 .cat-head { display: flex; align-items: flex-end; justify-content: space-between; gap: 30px; flex-wrap: wrap; margin-bottom: 44px; }
 
@@ -460,8 +460,8 @@ h1, h2, h3, h4, h5, p { margin: 0; }
 .detail-hero { background: var(--navy); color: var(--white); padding: 130px 0 60px; position: relative; overflow: hidden; }
 .detail-hero.inline { padding: 48px 0 40px; }
 .product-inline-wrap { border-top: 1px solid var(--border); }
-.product-inline-wrap .detail-block { padding: 40px 0; }
-.product-inline-cta { padding: 32px 0; background: var(--bg-alt); border-bottom: 1px solid var(--border); }
+.product-inline-wrap .detail-block { padding: 32px 0; }
+.product-inline-cta { padding: 24px 0; background: var(--bg-alt); border-bottom: 1px solid var(--border); }
 .detail-hero .grid { display: grid; grid-template-columns: 1fr 1.2fr; gap: 48px; align-items: center; position: relative; z-index: 1; }
 .detail-hero .chip {
   display: inline-block; font-family: "JetBrains Mono", monospace; font-size: 11px; letter-spacing: .1em; text-transform: uppercase;
